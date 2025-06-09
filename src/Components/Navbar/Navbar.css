@@ -22,6 +22,11 @@
   transition: 0.5s;
 }
 
+.nav-connect a {
+  text-decoration: none;
+  color: white;
+}
+
 .nav-connect:hover {
   transform: scale(1.05);
 }

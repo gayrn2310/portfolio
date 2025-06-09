@@ -29,7 +29,7 @@ const Navbar = () => {
         <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={() => setMenu("work")}>My Work</p></AnchorLink>{menu==="work"?<img src={underline} alt=''/> : <></>}</li>
         <li><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() => setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline} alt=''/> : <></>}</li>
       </ul>
-      <div className="nav-connect">Resume</div>
+      <div className="nav-connect"><a href="https://drive.google.com/file/d/1FDOivqktSSalvm_IobbT3WPOWb6Sfeet/view?usp=sharing">Resume</a></div>
     </div>
   )
 }

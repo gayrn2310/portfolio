@@ -12,7 +12,7 @@ const mywork_data = [
         w_no:2,
         w_name:"Web design",
         w_img:project2_img,
-        w_link: "",
+        w_link: "https://github.com/gayrn2310/inventory-management.git",
     },
 ]
  
